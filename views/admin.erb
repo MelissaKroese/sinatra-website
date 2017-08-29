@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Admin Page</title>
+  <meta name= "home" content="Admin page">
+
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <div class="navbar2">
+    <ul>
+      <div class= "logo">
+        <img src="logo.png" alt="iXperience">
+      </div>
+      <div class='button'>
+        <a href='http://ixperience.co.za' class='button'>Home</a>
+        <a href='https://community.ixperience.co.za/referrers' class='button'>Community</a>
+      </div>
+    </ul>
+  </div>
+
+  <div class= "admin">
+    <h1 class= "adminh1">Subscriber <span style= 'color: #4abd9b'>Admin</span></h1>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% leads.each do |lead| %>
+      <tr>
+        <td><%= lead[0] %></td>
+        <td><%= lead[1] %></td>
+        <td><%= lead[2] %></td>
+        <% end %>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    <ul>
+      <li><img class src="logo2.png" alt="iX"></li>
+      <li><p>Learning. Reimagined.
+        <br>hello@ixperience.co.za
+        <br>Copyright &copy; 2017 iXperience</p>
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>

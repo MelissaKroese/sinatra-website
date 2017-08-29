@@ -1,0 +1,358 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  background: white url("whirlpool.png") repeat;
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+  margin: 0px 30px 30px 30px;
+  padding: 30px 30px 30px 30px;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar {
+  float: center;
+  overflow:hidden;
+  background: white url('brickwall.png') repeat;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  padding-top:5px;
+  padding-bottom: 5px;
+  border-bottom: solid;
+  border-color: #e31f80;
+}
+
+.button {
+  display: inline-block;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 10px 30px 10px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #4abd9b;
+  font-weight: bold;
+}
+
+.logo {
+  float:left;
+  padding: 10px;
+}
+
+.home {
+  background: #d3e5e1 url("website3.jpg") no-repeat center top;
+  background-size: contain;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 550px;
+  margin-bottom: 10px;
+  border-bottom: solid;
+  border-color: #e31f80;
+  border-width: thick;
+}
+
+h1 {
+  position: static;
+  font-family: 'lato', Helvetica, sans-serif;
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px grey;
+  font-size: 60px;
+  line-height: 40px;
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.home-content {
+  font-family: 'lato', Helvetica, sans-serif;
+  font-weight: 100;
+  color: #3f3f3f;
+}
+
+.paragraph1 {
+  font-size: 18px;
+  text-align: center;
+  background-color: #afafaf;
+  padding: 30px 30px 30px 30px;
+}
+
+.parent {
+  margin: 100px 0;
+}
+
+.child {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.child img {
+  border: 4px solid gray;
+  padding: 15px;
+}
+
+form {
+  margin: 100px;
+  text-align: center;
+  font-size: 25px;
+  padding: 0px 40px 40px 40px;
+  border-style: none;
+  margin-bottom: 20px;
+  background-color: lightgray;
+}
+
+legend {
+  font-size: 35px;
+  border-bottom-style: solid;
+  border-color: #e31f80;
+  border-width: medium;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 20px;
+}
+
+input[type=text] {
+  font-size: 20px;
+  font-weight: lighter;
+  color: grey;
+  padding: 5px 15px 5px 15px;
+  margin:15px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+
+}
+
+input[type=submit] {
+  color: #e31f80;
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.cameron {
+  list-style-type: square;
+  padding-left:60px;
+  margin-left:60px;
+}
+
+.cameron li{
+  float: left;
+  display: inline;
+}
+
+.img-circle {
+  border-radius: 100%;
+}
+
+div {
+  clear: left;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.speech-bubble1 {
+  float: right;
+  background-color: grey;
+  color: black;
+  font-style: italic;
+  font-weight: lighter;
+  border: 2px solid #333333;
+  border-radius: 30px;
+  width: 700px;
+  text-align: center;
+  padding: 20px;
+  margin: 60px;
+  position: static;
+}
+
+.zack {
+  padding: 0px 60px 40px 0px;
+  margin: 0px 60px 0px 0px;
+}
+
+.zack li{
+  float: right;
+  display: inline;
+  padding-bottom: 40px;
+}
+
+.img-circle {
+  border-radius: 100%;
+}
+
+div {
+  clear: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.speech-bubble2 {
+  float: left;
+  background-color: grey;
+  color: black;
+  font-style: italic;
+  font-weight: lighter;
+  border: 2px solid #333333;
+  border-radius: 30px;
+  width: 700px;
+  text-align: center;
+  padding: 20px;
+  margin: 60px;
+  position: static;
+}
+
+.footer {
+  background-color: #333333;
+  color: black;
+  border-top: solid #e31f80;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.footer img {
+  padding-left: 40px;
+  padding-right: 20px;
+  float:left;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer li p {
+  font-size: 12px;
+  font-weight: lighter;
+  display: inline;
+  text-align: left;
+}
+
+.thank-you {
+  background: #d3e5e1 url("Website2.jpg") no-repeat center top;
+  background-size: contain;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 330px;
+  margin-bottom: 50px;
+  border-bottom: solid;
+  border-color: #e31f80;
+  border-width: thick;
+}
+
+.tyheading {
+  color: white;
+  font-family: 'lato', Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 60px;
+  text-align: left;
+  text-shadow: 1px 1px 1px silver;
+  padding-top: 70px;
+}
+
+.ty2 {
+  font-family: 'lato', Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: normal;
+  color: #333333;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.tycontent {
+  font-size: 18px;
+  text-align: center;
+  background-color: #afafaf;
+  padding: 30px 30px 30px 30px;
+}
+
+.team {
+  font-size: 20px;
+}
+
+.button3 {
+  text-align: center;
+  padding: 40px;
+}
+.button2 {
+  color: white;
+  display: inline-block;
+  background: #323232;
+  border-style: solid;
+  border-color: #333333;
+  border-width: thick;
+  border-radius: 20px;
+  text-shadow: 0px 0px 19px #666666;
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 20px 14px 20px;
+  float: center;
+}
+
+.button2:hover {
+  color: #4abd9b;
+  font-weight: bold;
+}
+
+.navbar2 {
+  float: center;
+  overflow:hidden;
+  background: white url('brickwall.png') repeat;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  padding-top:5px;
+  padding-bottom: 5px;
+  border-bottom: solid;
+  border-color: grey;
+}
+
+.admin {
+  background-color: #333333;
+  background-size: contain;
+  background-attachment: fixed;
+  font-family:'lato', Helvetica, sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: solid;
+  border-color: grey;
+  border-width: thick;
+}
+
+table {
+  border-style: solid;
+  border-color: lightgrey;
+  text-align: left;
+  display: inline-block;
+  column-width: auto;
+}
+table.th {
+  background-color: yellow;
+}
