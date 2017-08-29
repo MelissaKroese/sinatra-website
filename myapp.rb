@@ -20,3 +20,9 @@ get '/admin' do
   leads = CSV.read('leads.csv')
   erb :admin, locals: { leads: leads }
 end
+
+get '/leads.csv' do
+  content_type 'application/csv'
+  attachment "#{Time.now}-download-leads.csv"
+  File.open('leads.csv').read.to_s
+end

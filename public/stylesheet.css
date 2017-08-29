@@ -60,7 +60,7 @@ h2 {
 
 .home {
   background: #d3e5e1 url("website3.jpg") no-repeat center top;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   padding-top: 50px;
   padding-bottom: 550px;
@@ -138,15 +138,26 @@ input[type=text] {
   border-style: solid;
   border-color: grey;
   border-width: 2px;
-
 }
 
 input[type=submit] {
-  color: #e31f80;
-  font-size: 60px;
+  border: solid #2e3137;
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding:5px;
+}
+
+input[value="Submit"] {
+  color: #2e3137;
+  font-size: 25px;
+  font-weight: normal;
   margin-top: 30px;
   margin-bottom: 10px;
   width: 100px;
+}
+
+input[value="Submit"]:hover {
+  background-color: #7a7a7a;
 }
 
 .cameron {
@@ -226,8 +237,8 @@ div {
 }
 
 .footer {
-  background-color: #333333;
-  color: black;
+  background-color: #2e3137;
+  color: white;
   border-top: solid #e31f80;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -252,7 +263,7 @@ div {
 
 .thank-you {
   background: #d3e5e1 url("Website2.jpg") no-repeat center top;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   padding-top: 50px;
   padding-bottom: 330px;
@@ -297,6 +308,7 @@ div {
   text-align: center;
   padding: 40px;
 }
+
 .button2 {
   color: white;
   display: inline-block;
@@ -347,12 +359,41 @@ div {
 }
 
 table {
-  border-style: solid;
-  border-color: lightgrey;
-  text-align: left;
-  display: inline-block;
-  column-width: auto;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0px;
 }
-table.th {
-  background-color: yellow;
+
+th, td {
+  padding: 0;
+  margin: 0;
+  width: 33.33%;
+  text-align: left;
+  padding: 4px;
+}
+
+th {
+  background-color: grey;
+  font-size: 20px;
+  padding: 10px;
+}
+
+td {
+  padding: 5px;
+}
+
+table tr:nth-child(odd) td {
+  background-color: lightgrey;
+}
+
+.leads-button {
+  color: white;
+  background: #e31f80;
+  text-shadow: 0px 0px 19px #666666;
+  font-size: 14px;
+  margin: 10px 40px 60px 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 10px 8px 10px;
+  float: right;
 }
