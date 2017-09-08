@@ -140,14 +140,22 @@ input[type=text] {
   border-width: 2px;
 }
 
+input[type=email] {
+  font-size: 20px;
+  font-weight: lighter;
+  color: pink;
+  padding: 5px 15px 5px 15px;
+  margin:15px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+}
+
 input[type=submit] {
   border: solid #2e3137;
   background-color: lightgrey;
   border-radius: 10px;
   padding:5px;
-}
-
-input[value="Submit"] {
   color: #2e3137;
   font-size: 25px;
   font-weight: normal;
@@ -156,7 +164,7 @@ input[value="Submit"] {
   width: 100px;
 }
 
-input[value="Submit"]:hover {
+input[type="Submit"]:hover {
   background-color: #7a7a7a;
 }
 
