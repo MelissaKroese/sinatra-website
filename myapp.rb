@@ -30,4 +30,6 @@ get '/leads.csv' do
   content_type 'application/csv'
   attachment "#{Time.now}-download-leads.csv"
   File.open('leads.csv').read.to_s
+  File.readlines("leads.csv").sort {|x, y| x[0] <=> y[0]}
+
 end

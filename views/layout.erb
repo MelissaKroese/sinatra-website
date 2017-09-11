@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Newsletter</title>
+  <meta name= "home" content="Subscribe to our newsletter">
+
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <div class= "logo">
+        <img src="logo.png" alt="iXperience">
+      </div>
+      <div class='button'>
+        <a href='http://ixperience.co.za' class='button'>Home</a>
+        <a href='http://blog.ixperience.co.za' class='button'>Blog</a>
+      </div>
+    </ul>
+  </div>
+
+  <%= yield %>
+  
+  <div class="footer">
+    <ul>
+      <li><img class src="ix-white-small.png" alt="iX"></li>
+      <li><p>Learning. Reimagined.
+        <br>hello@ixperience.co.za
+        <br>Copyright &copy; 2017 iXperience</p>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
